@@ -743,7 +743,7 @@ padding: 0 20px;
         width: 300px;
     }
     nav .nav-link:hover::after{
-        width: 24%;
+        width: 100%;
         transition: .4s all;
     }
     #cardmeune {

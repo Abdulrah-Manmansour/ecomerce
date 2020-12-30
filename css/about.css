@@ -659,7 +659,7 @@ footer .cion-social .fa-twitter:hover{
         padding: 0 30px;
     }
     nav .nav-link:hover::after{
-        width: 106%;
+        width: 100%;
         transition: .4s all;
     }
     .send-message .input-mesage input {
