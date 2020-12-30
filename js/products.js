@@ -165,18 +165,19 @@ var noite = document.getElementById('h4card');
 var listitem=document.getElementById("last-item");
 console.log(listitem);
 let count = 0;
-let number=0;
 function clc() {
   count += 1;
   noite.classList.add('zero');
   noite.innerHTML = count;
 }
-//btndelet card
-btnCard=document.getElementById("deletcard");
-listCard=document.getElementById("last-item")
-btnCard.addEventListener('click',function(){
-listCard.innerHTML='';
-if(listCard.innerHTML===''){
-  noite.textContent=number;
-}
-});
+ 
+
+// //btndelet card
+ btnCard=document.getElementById("deletcard");
+ listCard=document.getElementById("last-item")
+ btnCard.addEventListener('click',function(){
+ listCard.innerHTML='';
+  if(listCard.innerHTML===''){
+   noite.innerHTML=count=0;
+ }
+ });
