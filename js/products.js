@@ -39,6 +39,7 @@
  var btndcarde=$("#deletcard");
 btndcarde.on('click',function(){
   $(".btndelet").fadeOut();
+  
 })
  //slide togale list menue
  $('.fa-cart-plus').on('click',function(){
@@ -161,7 +162,10 @@ new WOW().init();
  
 //add to card
 var noite = document.getElementById('h4card');
+var listitem=document.getElementById("last-item");
+console.log(listitem);
 let count = 0;
+let number=0;
 function clc() {
   count += 1;
   noite.classList.add('zero');
@@ -172,4 +176,7 @@ btnCard=document.getElementById("deletcard");
 listCard=document.getElementById("last-item")
 btnCard.addEventListener('click',function(){
 listCard.innerHTML='';
+if(listCard.innerHTML===''){
+  noite.textContent=number;
+}
 });
