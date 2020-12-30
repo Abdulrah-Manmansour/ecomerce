@@ -5,7 +5,9 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
-    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
 }
 /*====start upperbar====*/
 .upperbar{
@@ -222,7 +224,9 @@ nav span .fa-bars:hover{
     transform: scale(1.1);
 }
 /*====end navbar======*/
-
+#last-item{
+    padding-top: 6px;
+}
 
 /*====start header======*/
 .imgwater100{
@@ -744,9 +748,6 @@ padding: 0 20px;
     }
     #cardmeune {
         right: 0;
-    }
-    body{
-        overflow: auto;
     }
 }
 @media(max-width:768px){

@@ -5,7 +5,9 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
-    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
 }
 /*====start upperbar====*/
 .upperbar{
@@ -671,10 +673,6 @@ padding: 0 20px;
     .upperbar .ddd {
 display: none;
     }
-    body{
-        overflow: auto;
-    }
-     
  }
  @media(max-width:599px){
      .item1 h1{
