@@ -12,7 +12,6 @@ if ($(window).scrollTop() >= 10) {
 } else {
   $("nav").removeClass("bg")
 }
-
        //nice scroll
   $('html').niceScroll({
     cursorcolor: "#727272",

@@ -1,10 +1,5 @@
 
   $(document).ready(function(){
-  //water animation
-  $("header").ripples({
-    dropRadius: 10,
-    perturbance: 0.08,
-  });
   //scroll navbar
   $(window).scroll(function () {
     if ($(window).scrollTop() >= 10) {
@@ -18,16 +13,20 @@
   } else {
     $("nav").removeClass("bg")
   }
-//nice scroll
- $('html').niceScroll({
-   cursorcolor: "#727272",
-   cursorwidth: "10px",
-   zindex: "888888",
-   cursoropacitymin: '0.5',
-   cursorborderradius: "10px",
-   scrollspeed: 20,
- });
- 
+    //nice scroll
+    $('html').niceScroll({
+      cursorcolor: "#727272",
+      cursorwidth: "10px",
+      zindex: "888888",
+      cursoropacitymin: '0.5',
+      cursorborderradius: "10px", 
+      scrollspeed: 20,
+    });
+     //water animation
+     $(".imgwater100").ripples({
+      dropRadius: 10,
+      perturbance: 0.08,
+      });
 });
  
  //slide togale list menue
