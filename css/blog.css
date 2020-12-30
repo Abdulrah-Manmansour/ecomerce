@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
-    
+    overflow: hidden;
 }
 /*====start upperbar====*/
 .upperbar{
@@ -670,6 +670,9 @@ padding: 0 20px;
 @media(max-width:768px){
     .upperbar .ddd {
 display: none;
+    }
+    body{
+        overflow: auto;
     }
      
  }

@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
+    overflow: hidden;
 }
 /*====start upperbar====*/
 .upperbar{
@@ -622,6 +623,9 @@ padding: 0 20px;
     }
     footer{
         margin-top: 700px;
+    }
+    body{
+        overflow: auto;
     }
 }
 @media(max-width:768px){

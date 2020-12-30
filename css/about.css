@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
-   
+   overflow: hidden;
 }
 /*====start upperbar====*/
 .upperbar{
@@ -663,6 +663,9 @@ footer .cion-social .fa-twitter:hover{
     .send-message .input-mesage input {
         width: 350px;
     }
+    body{
+        overflow: auto;
+    }
 }
 @media(max-width:768px){
     .upperbar .ddd {
@@ -687,9 +690,11 @@ display: none;
     .send-message .input-mesage input {
         width: 324px;
     }
+}
  @media(max-width:390px){
      .upperbar .logo h1{
          font-size: 30px;
      }
  }
+
 /*=====end meida query=======*/
