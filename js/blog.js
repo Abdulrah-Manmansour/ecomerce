@@ -22,7 +22,10 @@ if ($(window).scrollTop() >= 10) {
     scrollspeed: 20,
   });
    //water animation
-  
+   $(".imgwater100").ripples({
+    dropRadius: 10,
+    perturbance: 0.08,
+    });
   });
   //show button top and hide
   $(window).scroll(function(){
