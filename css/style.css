@@ -198,6 +198,7 @@ nav span .fa-bars:hover{
     transform: scale(1.1);
 }
 /*====end navbar======*/
+/*====add to card======*/
 .contcard h4{
     position: relative;
     cursor: pointer;
@@ -221,6 +222,7 @@ transform: translateY(-3px);
 .contcard #h4card.zero{
     opacity: 1;
 }
+/*===end ad to card====*/
 /*===start header=====*/
   header{
       width: 100%;
@@ -307,8 +309,9 @@ transition: .4s all;
      position: relative;
  }
  .typed-cursor{
-     display: none;
+  color: #fff;
  }
+
 /*====end header=======*/
 /*==start about section======*/
 .about{
@@ -1029,6 +1032,7 @@ footer .cion-social .fa-twitter:hover{
       .send-message .input-mesage input {
           width: 349px;
       }
+     
 }
 @media(max-width:768px){
     .upperbar .ddd {
@@ -1039,6 +1043,9 @@ display: none;
     }
      .newadd .contresnt .item{
          width: 197px;
+     }
+     nav .nav-link::after{
+         display: none;
      }
  }
  @media(max-width:600px){

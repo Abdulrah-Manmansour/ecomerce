@@ -670,7 +670,9 @@ footer .cion-social .fa-twitter:hover{
     .upperbar .ddd {
 display: none;
     }
-     
+    nav .nav-link::after{
+        display: none;
+    } 
  }
  @media(max-width:599px){
      .item1 h1{

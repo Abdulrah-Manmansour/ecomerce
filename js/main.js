@@ -34,9 +34,9 @@ $('.num').counterUp({
    });
     //loading page
    //loading page
-   $(window).on('load', function () {
-    $('.loading').fadeToggle();
-  });
+    $(window).on('load', function () {
+     $('.loading').fadeToggle();
+   });
    //typeing anmation
 var typed = new Typed('.type',{
   strings:['This a store for Selling furniture','Make Your Home Better Place','There is a 50% discount','A better choice for you',],
@@ -106,9 +106,6 @@ var btn=document.getElementsByClassName('btn-card');
     noite.classList.add('zero')
     noite.innerHTML=count;
   }
- 
-
-
 //wow js
 new WOW().init();
 
